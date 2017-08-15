@@ -1,0 +1,16 @@
+PODS:
+  - FGRoute (0.1.0)
+
+DEPENDENCIES:
+  - FGRoute (from `../`)
+
+EXTERNAL SOURCES:
+  FGRoute:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FGRoute: 87e5e0db75b3e43431238ba3aa2cfd675ffb61b9
+
+PODFILE CHECKSUM: 70a1a6c7368f87c148555ea7409afb4c813f28d1
+
+COCOAPODS: 1.2.1
