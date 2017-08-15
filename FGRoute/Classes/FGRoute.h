@@ -8,8 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Getway : NSObject
+@interface FGRoute : NSObject
 
 + (NSString *)getGatewayIP;
 
++ (NSString *)getSSID;
+
++ (NSString *)getBSSID;
+
++ (NSString *)getSSIDDATA;
 @end

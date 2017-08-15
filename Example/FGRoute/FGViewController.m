@@ -7,7 +7,7 @@
 //
 
 #import "FGViewController.h"
-
+#import "FGRoute.h"
 
 @interface FGViewController ()
 
@@ -18,7 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    NSLog(@"Wifi Route ip is - %@", [FGRoute getGatewayIP]);
+    NSLog(@"%@", [FGRoute getSSID]);
+    NSLog(@"%@", [FGRoute getBSSID]);
+    NSLog(@"%@", [FGRoute getSSIDDATA]);
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

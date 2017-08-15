@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06A281253CD6C9971022B488A802EB40 /* Getway.h in Headers */ = {isa = PBXBuildFile; fileRef = 25979A27EDA21436240EC3BF3C11CB1E /* Getway.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13D4246D05A5C0AE67CB49E67A29C9FD /* Getway.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C210179BB897F9A9AD9F2D8663A79FF /* Getway.m */; };
+		06A281253CD6C9971022B488A802EB40 /* FGRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 25979A27EDA21436240EC3BF3C11CB1E /* FGRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13D4246D05A5C0AE67CB49E67A29C9FD /* FGRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C210179BB897F9A9AD9F2D8663A79FF /* FGRoute.m */; };
 		1B01C970BCCC790630205D3BF80D5124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		1E6FA5681B69BB337AE839234C71BFA3 /* FGRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE18CAB682C3B0A02270C54ACED533E1 /* FGRoute-dummy.m */; };
 		254EDF6CB3DDC253822FB5C980803033 /* IpHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2F193B301DE60A3D1577737FE334D /* IpHelper.c */; };
@@ -38,10 +38,10 @@
 		0DC2F193B301DE60A3D1577737FE334D /* IpHelper.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = IpHelper.c; sourceTree = "<group>"; };
 		1743C5595B2B37BDF35CC98E7CF5473A /* Pods-FGRoute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FGRoute_Tests.modulemap"; sourceTree = "<group>"; };
 		21BA5D4A8BDD0EE7D900D3C63C90B931 /* FGRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGRoute-umbrella.h"; sourceTree = "<group>"; };
-		25979A27EDA21436240EC3BF3C11CB1E /* Getway.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Getway.h; sourceTree = "<group>"; };
+		25979A27EDA21436240EC3BF3C11CB1E /* FGRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FGRoute.h; sourceTree = "<group>"; };
 		2D4CFC03B37D12FD2F1F3C5B00F43C12 /* Pods-FGRoute_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FGRoute_Tests-umbrella.h"; sourceTree = "<group>"; };
 		38D8F76B3A7F45CA2C7ED9B45FBBC0A8 /* FGRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGRoute-prefix.pch"; sourceTree = "<group>"; };
-		3C210179BB897F9A9AD9F2D8663A79FF /* Getway.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Getway.m; sourceTree = "<group>"; };
+		3C210179BB897F9A9AD9F2D8663A79FF /* FGRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FGRoute.m; sourceTree = "<group>"; };
 		468850EC06613165A64E218030B76406 /* Pods-FGRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
 		49DE4FF8CBF05DDD23B1933DDCC486BF /* Pods-FGRoute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FGRoute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4B13A755E966635EB11B39A6E7175F0B /* Pods-FGRoute_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FGRoute_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				DE9353121F42F1EB0034F866 /* route.h */,
-				25979A27EDA21436240EC3BF3C11CB1E /* Getway.h */,
-				3C210179BB897F9A9AD9F2D8663A79FF /* Getway.m */,
+				25979A27EDA21436240EC3BF3C11CB1E /* FGRoute.h */,
+				3C210179BB897F9A9AD9F2D8663A79FF /* FGRoute.m */,
 				0DC2F193B301DE60A3D1577737FE334D /* IpHelper.c */,
 				DF29CD67B147CD2B7791D5079034065B /* IpHelper.h */,
 			);
@@ -259,7 +259,7 @@
 			files = (
 				DE9353131F42F1EB0034F866 /* route.h in Headers */,
 				52896AF7EFCAD0DDC4254F6B35DAA2AE /* FGRoute-umbrella.h in Headers */,
-				06A281253CD6C9971022B488A802EB40 /* Getway.h in Headers */,
+				06A281253CD6C9971022B488A802EB40 /* FGRoute.h in Headers */,
 				D2C2A139E36699C404AAC1C7B65C43AA /* IpHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,7 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E6FA5681B69BB337AE839234C71BFA3 /* FGRoute-dummy.m in Sources */,
-				13D4246D05A5C0AE67CB49E67A29C9FD /* Getway.m in Sources */,
+				13D4246D05A5C0AE67CB49E67A29C9FD /* FGRoute.m in Sources */,
 				254EDF6CB3DDC253822FB5C980803033 /* IpHelper.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
