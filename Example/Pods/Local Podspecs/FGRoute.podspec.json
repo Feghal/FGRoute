@@ -1,23 +1,23 @@
 {
   "name": "FGRoute",
   "version": "0.1.0",
-  "summary": "A short description of FGRoute.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/andranikasil84@gmail.com/FGRoute",
+  "summary": "FGRoute is library to help developers get info from wifi interfaces.",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "description": "FGRoute is library to help developers get info from wifi interfaces, such as get connected wifi SSID, route ip address, device local ip address etc.",
+  "homepage": "https://github.com/Feghal/FGRoute",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "andranikasil84@gmail.com": "asahakyan@vtgsoftware.com"
+    "arturshakyan1996@gmail.com": "arturshakyan1996@gmail.com"
   },
   "source": {
-    "git": "https://github.com/andranikasil84@gmail.com/FGRoute.git",
+    "git": "https://github.com/Feghal/FGRoute.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "8.0"
-  },
   "source_files": "FGRoute/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h"
+  "public_header_files": "FGRoute/Classes/**/FGRoute.h"
 }

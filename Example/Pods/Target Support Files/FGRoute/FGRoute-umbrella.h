@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "Getway.h"
-#import "IpHelper.h"
+#import "FGRoute.h"
 
 FOUNDATION_EXPORT double FGRouteVersionNumber;
 FOUNDATION_EXPORT const unsigned char FGRouteVersionString[];
