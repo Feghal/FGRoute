@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## FGRoute
 
-Copyright (c) 2017 andranikasil84@gmail.com <asahakyan@vtgsoftware.com>
+Copyright (c) 2017 Arthur Sahakyan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

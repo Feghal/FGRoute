@@ -3,7 +3,7 @@
 //  Volterman
 //
 //  Created by Arthur Sahakyan on 6/8/17.
-//  Copyright © 2017 VTGSoftware. All rights reserved.
+//  Copyright © 2017 Arthur Sahakyan. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -17,4 +17,7 @@
 + (NSString *)getBSSID;
 
 + (NSString *)getSSIDDATA;
+
++ (NSString *)getIPAddress;
+
 @end

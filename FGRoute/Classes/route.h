@@ -1,10 +1,3 @@
-//
-//  route.h
-//  Volterman
-//
-//  Created by Arthur Sahakyan on 6/8/17.
-//  Copyright © 2017 VTGSoftware. All rights reserved.
-//
 
 /*
  * Copyright (c) 2000-2008 Apple Inc. All rights reserved.

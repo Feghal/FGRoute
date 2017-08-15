@@ -2,8 +2,8 @@
 //  FGRouteTests.m
 //  FGRouteTests
 //
-//  Created by andranikasil84@gmail.com on 08/15/2017.
-//  Copyright (c) 2017 andranikasil84@gmail.com. All rights reserved.
+//  Created by Arthur Sahakyan on 08/15/2017.
+//  Copyright (c) 2017 Arthur Sahakyan. All rights reserved.
 //
 
 @import XCTest;
