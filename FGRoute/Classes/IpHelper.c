@@ -14,6 +14,8 @@
 #include <net/if.h>
 #include <string.h>
 #include <arpa/inet.h>
+#include <TargetConditionals.h>
+
 
 #if TARGET_IPHONE_SIMULATOR
 #include <net/route.h>
