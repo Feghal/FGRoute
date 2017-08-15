@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,10 +19,66 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQz-bF-Dx0">
+                                <rect key="frame" x="24" y="28" width="272" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUx-Wv-rdp">
+                                <rect key="frame" x="24" y="57" width="272" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AyT-wo-KrW">
+                                <rect key="frame" x="24" y="86" width="272" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlB-G8-MwI">
+                                <rect key="frame" x="24" y="115" width="272" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7F-CP-Wml">
+                                <rect key="frame" x="24" y="144" width="272" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eQz-bF-Dx0" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="4I0-bN-5d3"/>
+                            <constraint firstItem="QlB-G8-MwI" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="5hO-Qp-Phq"/>
+                            <constraint firstItem="f7F-CP-Wml" firstAttribute="top" secondItem="QlB-G8-MwI" secondAttribute="bottom" constant="8" id="5yg-mM-Kw5"/>
+                            <constraint firstItem="AyT-wo-KrW" firstAttribute="top" secondItem="NUx-Wv-rdp" secondAttribute="bottom" constant="8" id="7Yw-Xj-BNI"/>
+                            <constraint firstItem="eQz-bF-Dx0" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="8" id="DDT-uR-iEt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QlB-G8-MwI" secondAttribute="trailing" constant="8" id="Gd3-X4-T98"/>
+                            <constraint firstItem="AyT-wo-KrW" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="GgG-Oq-qXC"/>
+                            <constraint firstItem="f7F-CP-Wml" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="QKT-ON-sIJ"/>
+                            <constraint firstItem="NUx-Wv-rdp" firstAttribute="top" secondItem="eQz-bF-Dx0" secondAttribute="bottom" constant="8" id="aXT-bX-T2T"/>
+                            <constraint firstItem="NUx-Wv-rdp" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="c5R-1w-N8V"/>
+                            <constraint firstItem="QlB-G8-MwI" firstAttribute="top" secondItem="AyT-wo-KrW" secondAttribute="bottom" constant="8" id="kU2-0R-x1F"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f7F-CP-Wml" secondAttribute="trailing" constant="8" id="lQr-mx-wlB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eQz-bF-Dx0" secondAttribute="trailing" constant="8" id="oqc-4O-7eO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NUx-Wv-rdp" secondAttribute="trailing" constant="8" id="tNY-tg-5XS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AyT-wo-KrW" secondAttribute="trailing" constant="8" id="ufo-Xh-hHg"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bssidLabel" destination="QlB-G8-MwI" id="7ul-kj-KCB"/>
+                        <outlet property="getwayLabel" destination="eQz-bF-Dx0" id="Jz1-AY-pt7"/>
+                        <outlet property="ipLabel" destination="NUx-Wv-rdp" id="c0b-pB-baI"/>
+                        <outlet property="ssidDataLabel" destination="f7F-CP-Wml" id="Dbl-4Z-aV4"/>
+                        <outlet property="ssidLabel" destination="AyT-wo-KrW" id="euu-0O-fVp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
