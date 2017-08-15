@@ -2,15 +2,20 @@ PODS:
   - FGRoute (0.1.0)
 
 DEPENDENCIES:
-  - FGRoute (from `../`)
+  - FGRoute (from `https://github.com/Feghal/FGRoute.git`)
 
 EXTERNAL SOURCES:
   FGRoute:
-    :path: "../"
+    :git: https://github.com/Feghal/FGRoute.git
+
+CHECKOUT OPTIONS:
+  FGRoute:
+    :commit: 303149d610b112d02f99c895d69bb6331e291469
+    :git: https://github.com/Feghal/FGRoute.git
 
 SPEC CHECKSUMS:
   FGRoute: 82d0a55fba73c2e0323cfa5d99b6a8fb04db8c34
 
-PODFILE CHECKSUM: 70a1a6c7368f87c148555ea7409afb4c813f28d1
+PODFILE CHECKSUM: 0293c22f337c024d8f013aa52d0eda924e1fa62d
 
 COCOAPODS: 1.2.1
