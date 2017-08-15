@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/FGRoute.svg?style=flat)](http://cocoapods.org/pods/FGRoute)
 [![Platform](https://img.shields.io/cocoapods/p/FGRoute.svg?style=flat)](http://cocoapods.org/pods/FGRoute)
 
+FGRoute is a library that developted on c and ObjC(with Swift support).
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -19,9 +21,41 @@ it, simply add the following line to your Podfile:
 pod "FGRoute"
 ```
 
+## Usage
+
+With FGRoute you can easily get your ip address, Route, ssid etc.
+Full method documentation for Swift
+
+```swift
+FGRoute.getGatewayIP() //route ip address
+
+FGRoute.getSSID() // Connected wifi name
+
+FGRoute.getBSSID() // Connected wifi BSSID
+
+FGRoute.getSSIDDATA() // Connected wifi SSIDDATA
+
+FGRoute.getIPAddress() // Your local ip address in network
+```
+
+Full method documentation for ObjC
+
+```objective-c
+
+[FGRoute getGatewayIP]; //route ip address
+
+[FGRoute getSSID]; // Connected wifi name
+
+[FGRoute getBSSID]; // Connected wifi BSSID
+
+[FGRoute getSSIDDATA]; // Connected wifi SSIDDATA
+
+[FGRoute getIPAddress]; // Your local ip address in network
+```
+
 ## Author
 
-artursahakyan1996@gmail.com
+Arthur Sahakyan
 
 ## License
 
