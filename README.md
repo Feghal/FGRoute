@@ -1,6 +1,5 @@
 # FGRoute
 
-[![CI Status](http://img.shields.io/travis/andranikasil84@gmail.com/FGRoute.svg?style=flat)](https://travis-ci.org/andranikasil84@gmail.com/FGRoute)
 [![Version](https://img.shields.io/cocoapods/v/FGRoute.svg?style=flat)](http://cocoapods.org/pods/FGRoute)
 [![License](https://img.shields.io/cocoapods/l/FGRoute.svg?style=flat)](http://cocoapods.org/pods/FGRoute)
 [![Platform](https://img.shields.io/cocoapods/p/FGRoute.svg?style=flat)](http://cocoapods.org/pods/FGRoute)
@@ -22,7 +21,7 @@ pod "FGRoute"
 
 ## Author
 
-andranikasil84@gmail.com, asahakyan@vtgsoftware.com
+artursahakyan1996@gmail.com
 
 ## License
 
