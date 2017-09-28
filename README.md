@@ -24,6 +24,7 @@ pod "FGRoute"
 ## Usage
 
 With FGRoute you can easily get your ip address, Route, ssid etc.
+
 Full method documentation for Swift
 
 ```swift
