@@ -34,13 +34,6 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = FGRoute;
 		};
-		DEE6B3BF1F7D391900D7834F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = FGRoute_Example;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -73,7 +66,6 @@
 		7F9050FEC09B7B737C34EB27 /* Pods_FGRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FGRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B697FE34CC680234DF53B69A /* Pods-FGRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGRoute_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FGRoute_Tests/Pods-FGRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DEE6B3BA1F7D391900D7834F /* FGRoute_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGRoute_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2004C257803021F10A769E1 /* Pods-FGRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGRoute_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FGRoute_Example/Pods-FGRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,13 +89,6 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				B677B60B23054B86A957E58D /* Pods_FGRoute_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEE6B3B71F7D391900D7834F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +123,6 @@
 			children = (
 				6003F58A195388D20070C39A /* FGRoute_Example.app */,
 				6003F5AE195388D20070C39A /* FGRoute_Tests.xctest */,
-				DEE6B3BA1F7D391900D7834F /* FGRoute_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,24 +240,6 @@
 			productReference = 6003F5AE195388D20070C39A /* FGRoute_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DEE6B3B91F7D391900D7834F /* FGRoute_ExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DEE6B3C11F7D391900D7834F /* Build configuration list for PBXNativeTarget "FGRoute_ExampleTests" */;
-			buildPhases = (
-				DEE6B3B61F7D391900D7834F /* Sources */,
-				DEE6B3B71F7D391900D7834F /* Frameworks */,
-				DEE6B3B81F7D391900D7834F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DEE6B3C01F7D391900D7834F /* PBXTargetDependency */,
-			);
-			name = FGRoute_ExampleTests;
-			productName = FGRoute_ExampleTests;
-			productReference = DEE6B3BA1F7D391900D7834F /* FGRoute_ExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -289,12 +255,6 @@
 						DevelopmentTeam = KEL568YDEB;
 					};
 					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
-					};
-					DEE6B3B91F7D391900D7834F = {
-						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = KEL568YDEB;
-						ProvisioningStyle = Automatic;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -314,7 +274,6 @@
 			targets = (
 				6003F589195388D20070C39A /* FGRoute_Example */,
 				6003F5AD195388D20070C39A /* FGRoute_Tests */,
-				DEE6B3B91F7D391900D7834F /* FGRoute_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -336,13 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEE6B3B81F7D391900D7834F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,13 +412,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE6B3B61F7D391900D7834F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -474,11 +419,6 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* FGRoute_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
-		};
-		DEE6B3C01F7D391900D7834F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* FGRoute_Example */;
-			targetProxy = DEE6B3BF1F7D391900D7834F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -664,84 +604,6 @@
 			};
 			name = Release;
 		};
-		DEE6B3C21F7D391900D7834F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = KEL568YDEB;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = FGRoute_ExampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.feghal.FGRoute-ExampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGRoute_Example.app/FGRoute_Example";
-			};
-			name = Debug;
-		};
-		DEE6B3C31F7D391900D7834F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = KEL568YDEB;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = FGRoute_ExampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.feghal.FGRoute-ExampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGRoute_Example.app/FGRoute_Example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -768,15 +630,6 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DEE6B3C11F7D391900D7834F /* Build configuration list for PBXNativeTarget "FGRoute_ExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DEE6B3C21F7D391900D7834F /* Debug */,
-				DEE6B3C31F7D391900D7834F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
