@@ -1,5 +1,5 @@
 PODS:
-  - FGRoute (1.0.0)
+  - FGRoute (1.0.2)
   - Reachability (3.2)
 
 DEPENDENCIES:
@@ -8,12 +8,12 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   FGRoute:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  FGRoute: c57e30453f5844564d473216044c8b90d56d2209
+  FGRoute: 878f21176dd01e5ab8e7d2a43e16c112d42f11b1
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
 PODFILE CHECKSUM: 0325648794ddb2421c391e66148b1dab116e40b8
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1
