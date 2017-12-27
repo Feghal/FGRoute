@@ -22,7 +22,7 @@
     if(r >= 0) {
         ipString = [NSString stringWithFormat: @"%s",inet_ntoa(gatewayaddr)];
     } else {
-        NSLog(@"getdefaultgateway() failed");
+        NSLog(@"Wifi is not connected or you are using simulator Gateway ip address will be nil");
     }
     
     return ipString;
@@ -30,16 +30,25 @@
 
 + (NSString *)getSSID {
     NSDictionary *info = [self getInterfaces];
+    if (info[@"SSID"] == nil) {
+        NSLog(@"Wifi is not connected or you are using simulator SSID will be nil");
+    }
     return info[@"SSID"];
 }
 
 + (NSString *)getBSSID {
     NSDictionary *info = [self getInterfaces];
+    if (info[@"BSSID"] == nil) {
+        NSLog(@"Wifi is not connected or you are using simulator BSSID will be nil");
+    }
     return info[@"BSSID"];
 }
 
 + (NSString *)getSSIDDATA {
     NSDictionary *info = [self getInterfaces];
+    if (info[@"SSIDDATA"] == nil) {
+        NSLog(@"Wifi is not connected or you are using simulator SSIDDATA will be nil");
+    }
     return info[@"SSIDDATA"];
 }
 
@@ -73,14 +82,25 @@
                 }
                 
             }
-            
             temp_addr = temp_addr->ifa_next;
         }
     }
     // Free memory
     freeifaddrs(interfaces);
-    return address;
     
+    if ([address  isEqual: @"error"]) {
+        NSLog(@"Wifi is not connected or you are using simulator ip address will be nil");
+    }
+    return address;
 }
+    
++ (BOOL)isWifiConnected {
+    NSDictionary *info = [self getInterfaces];
+    if (info[@"SSID"]) {
+        return true;
+    }
+    return false;
+}
+
 
 @end

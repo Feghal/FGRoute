@@ -22,13 +22,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"Is connected via wifi - %s", [FGRoute isWifiConnected] ? "YES" : "NO");
     NSLog(@"Wifi Route ip is - %@", [FGRoute getGatewayIP]);
     NSLog(@"Wifi Name - %@", [FGRoute getSSID]);
     NSLog(@"Wifi BSSID - %@", [FGRoute getBSSID]);
     NSLog(@"Wifi SSIDData - %@", [FGRoute getSSIDDATA]);
     NSLog(@"Ip Address - %@", [FGRoute getIPAddress]);
-    
     [self showOnView];
 }
 

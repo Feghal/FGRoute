@@ -30,6 +30,8 @@ With FGRoute you can easily get your ip address, Route, ssid etc.
 Full method documentation for Swift
 
 ```swift
+FGRoute.isWifiConnected() // Bolean value to check internet connection
+
 FGRoute.getGatewayIP() //route ip address
 
 FGRoute.getSSID() // Connected wifi name
@@ -44,6 +46,8 @@ FGRoute.getIPAddress() // Your local ip address in network
 Full method documentation for ObjC
 
 ```objective-c
+
+[FGRoute isWifiConnected]; // Bolean value to check internet connection
 
 [FGRoute getGatewayIP]; //route ip address
 

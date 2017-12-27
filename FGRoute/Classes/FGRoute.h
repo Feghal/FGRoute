@@ -40,4 +40,10 @@
  */
 + (NSString *)getIPAddress;
 
+/**
+
+ @return @b true if wifi is connected, @b false if not
+ */
++ (BOOL)isWifiConnected;
+
 @end
