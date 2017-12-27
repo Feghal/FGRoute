@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/FGRoute.svg?style=flat)](http://cocoapods.org/pods/FGRoute)
 [![Platform](https://img.shields.io/cocoapods/p/FGRoute.svg?style=flat)](http://cocoapods.org/pods/FGRoute)
 
-FGRoute is a library that developted on c and ObjC(with Swift support), FGRoute is library to help developers get info from wifi interfaces.
+FGRoute is written on C and Objective C (includes Swift support), it helps developers to get rid of dealing with WiFi interfaces..
 
 ## Example
 

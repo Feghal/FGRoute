@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FGRoute'
   s.version          = '1.0.2'
-  s.summary          = 'FGRoute is library to help developers get info from wifi interfaces.'
+  s.summary          = 'FGRoute helps developers to get rid of dealing with WiFi interfaces.'
   s.platform         = :ios, '8.0'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-FGRoute is library to help developers get info from wifi interfaces, such as get connected wifi SSID, route ip address, device local ip address etc.
+FGRoute is library to help developers get info from wifi interfaces, such as connected wifi SSID, route ip address, device local ip address etc.
                        DESC
 
   s.homepage         = 'https://github.com/Feghal/FGRoute'
