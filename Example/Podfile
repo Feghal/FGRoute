@@ -4,9 +4,6 @@ target 'FGRoute_Example' do
   pod 'FGRoute', :path => '../'
 
   target 'FGRoute_Tests' do
-    inherit! :search_paths
-    pod 'Reachability'
-
-    
+    inherit! :search_paths    
   end
 end

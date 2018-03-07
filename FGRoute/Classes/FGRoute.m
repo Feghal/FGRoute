@@ -95,8 +95,8 @@
 }
     
 + (BOOL)isWifiConnected {
-    NSDictionary *info = [self getInterfaces];
-    if (info[@"SSID"]) {
+    NSString *info = [self getGatewayIP];
+    if (info) {
         return true;
     }
     return false;
