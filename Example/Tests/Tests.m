@@ -8,7 +8,6 @@
 
 @import XCTest;
 @import FGRoute;
-@import Reachability;
 
 @interface Tests : XCTestCase
 
@@ -26,8 +25,7 @@
 
 - (void)testRoute {
     NSString *getwayIp = [FGRoute getGatewayIP];
-    Reachability *rich = [Reachability reachabilityForInternetConnection];
-    if(rich.isReachableViaWiFi && !TARGET_IPHONE_SIMULATOR) {
+    if([FGRoute isWifiConnected]) {
         XCTAssertNotNil(getwayIp);
     } else {
         XCTAssertNil(getwayIp);
@@ -37,8 +35,7 @@
 - (void)testIp {
     NSString *ip = [FGRoute getIPAddress];
     XCTAssertNotNil(ip);
-    Reachability *rich = [Reachability reachabilityForInternetConnection];
-    if(rich.isReachableViaWiFi && !TARGET_IPHONE_SIMULATOR) {
+    if([FGRoute isWifiConnected]) {
         XCTAssertNotEqualObjects(ip, @"error");
     } else {
         XCTAssertEqualObjects(ip, @"error");
@@ -47,8 +44,7 @@
     
 - (void)testSSID {
     NSString *ssid = [FGRoute getSSID];
-    Reachability *rich = [Reachability reachabilityForInternetConnection];
-    if(rich.isReachableViaWiFi && !TARGET_IPHONE_SIMULATOR) {
+    if([FGRoute isWifiConnected] && !TARGET_IPHONE_SIMULATOR) {
         XCTAssertNotNil(ssid);
     } else {
         XCTAssertNil(ssid);
@@ -57,8 +53,7 @@
 
 - (void)testSSIDData {
     NSString *data = [FGRoute getSSIDDATA];
-    Reachability *rich = [Reachability reachabilityForInternetConnection];
-    if(rich.isReachableViaWiFi && !TARGET_IPHONE_SIMULATOR) {
+    if([FGRoute isWifiConnected] && !TARGET_IPHONE_SIMULATOR) {
         XCTAssertNotNil(data);
     } else {
         XCTAssertNil(data);
@@ -67,8 +62,7 @@
     
 - (void)testBSSID {
     NSString *bssid = [FGRoute getBSSID];
-    Reachability *rich = [Reachability reachabilityForInternetConnection];
-    if(rich.isReachableViaWiFi && !TARGET_IPHONE_SIMULATOR) {
+    if([FGRoute isWifiConnected] && !TARGET_IPHONE_SIMULATOR) {
         XCTAssertNotNil(bssid);
     } else {
         XCTAssertNil(bssid);

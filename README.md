@@ -16,6 +16,8 @@ iOS 8 and later.
 
 ## Installation
 
+### CocoaPods
+
 FGRoute is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -23,9 +25,31 @@ it, simply add the following line to your Podfile:
 pod "FGRoute"
 ```
 
+Then, run the following command:
+```ruby
+pod install
+```
+### Manually
+
+1. Drag and Drop it into your project
+
+2. Import "FGRoute.h"
+
+3. You are ready to go!
+
 ## Usage
 
 With FGRoute you can easily get your ip address, Route, ssid etc.
+
+First of all import header file at the top of your file
+for ObjC
+```ObjC
+#import "FGRoute.h"
+```
+for Swift
+```Swift
+import FGRoute
+```
 
 Full method documentation for Swift
 
