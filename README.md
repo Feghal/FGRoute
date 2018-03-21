@@ -7,7 +7,9 @@
 FGRoute is written on C and Objective C (includes Swift support), it helps developers to get rid of dealing with WiFi interfaces.
 
 ## Example
-
+<br>
+<a href="url"><img src="https://github.com/Feghal/FGRoute/blob/master/Screenshots/1.PNG" align="top" height="550" width="275" ></a>
+<br>
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
@@ -86,7 +88,7 @@ Full method documentation for ObjC
 
 ## Author
 
-Arthur Sahakyan
+Arthur Sahakyan, feghaldev@gmail.com
 
 ## License
 
