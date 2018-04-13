@@ -1,6 +1,6 @@
 //
-//  IpHelper.c
-//  Volterman
+//  IpHelper.h
+//  FGRoute
 //
 //  Created by Arthur Sahakyan on 6/7/17.
 //  Copyright © 2017 Arthur Sahakyan. All rights reserved.

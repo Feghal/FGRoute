@@ -1,6 +1,6 @@
 //
-//  Getway.m
-//  Volterman
+//  FGRoute.m
+//  FGRoute
 //
 //  Created by Arthur Sahakyan on 6/8/17.
 //  Copyright © 2017 Arthur Sahakyan. All rights reserved.
