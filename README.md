@@ -87,7 +87,7 @@ Full method documentation for ObjC
 ```
 
 ## iOS 13 and later
-You need to have "Access WiFi Information" entitlement enabled and you must meet al least one of criteria bellow 
+You need to have "Access WiFi Information" entitlement enabled and you must meet at least one of criteria bellow 
 
 * App with permission to access location
 * Currently enabled VPN app
