@@ -86,6 +86,15 @@ Full method documentation for ObjC
 [FGRoute getIPAddress]; // Your local ip address in network
 ```
 
+## iOS 13 and later
+You need to have "Access WiFi Information" entitlement enabled and you must meet al least one of criteria bellow 
+
+* App with permission to access location
+* Currently enabled VPN app
+* NEHotspotConfiguration
+
+see example for more details
+
 ## Author
 
 Arthur Sahakyan, feghaldev@gmail.com

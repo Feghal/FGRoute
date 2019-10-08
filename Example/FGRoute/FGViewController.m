@@ -8,14 +8,16 @@
 
 #import "FGViewController.h"
 #import "FGRoute.h"
+#import <CoreLocation/CoreLocation.h>
 
-@interface FGViewController ()
+@interface FGViewController ()<CLLocationManagerDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *getwayLabel;
 @property (weak, nonatomic) IBOutlet UILabel *ipLabel;
 @property (weak, nonatomic) IBOutlet UILabel *ssidLabel;
 @property (weak, nonatomic) IBOutlet UILabel *bssidLabel;
 @property (weak, nonatomic) IBOutlet UILabel *ssidDataLabel;
 
+@property (strong, nonatomic) CLLocationManager *manager;
 @end
 
 @implementation FGViewController
@@ -24,19 +26,43 @@
     [super viewDidLoad];
     NSLog(@"Is connected via wifi - %s", [FGRoute isWifiConnected] ? "YES" : "NO");
     NSLog(@"Wifi Route ip is - %@", [FGRoute getGatewayIP]);
-    NSLog(@"Wifi Name - %@", [FGRoute getSSID]);
-    NSLog(@"Wifi BSSID - %@", [FGRoute getBSSID]);
-    NSLog(@"Wifi SSIDData - %@", [FGRoute getSSIDDATA]);
     NSLog(@"Ip Address - %@", [FGRoute getIPAddress]);
+    
+    [self getLocationAccess];
     [self showOnView];
+}
+
+/// This Method is used to request auth for location, so FGRoute can fetch ssid and bssid, starting from ios 13 you have 3 opetions, have a location access, special entertiment, or be a VPN application, and also you need to have "Access WiFi Information" entitlement enabled
+- (void)getLocationAccess {
+    [self showSSIDInfo];
+    
+    self.manager = [[CLLocationManager alloc] init];
+    [self.manager requestAlwaysAuthorization];
+    self.manager.delegate = self;
 }
 
 - (void)showOnView {
     self.getwayLabel.text = [NSString stringWithFormat:@"Wifi Route ip is - %@", [FGRoute getGatewayIP]];
     self.ipLabel.text = [NSString stringWithFormat:@"Ip Address - %@", [FGRoute getIPAddress]];
+}
+
+- (void)showSSIDInfo {
+    NSLog(@"Wifi Name - %@", [FGRoute getSSID]);
+    NSLog(@"Wifi BSSID - %@", [FGRoute getBSSID]);
+    NSLog(@"Wifi SSIDData - %@", [FGRoute getSSIDDATA]);
+    
     self.ssidLabel.text = [NSString stringWithFormat:@"Wifi Name - %@", [FGRoute getSSID]];
     self.bssidLabel.text = [NSString stringWithFormat:@"Wifi BSSID - %@", [FGRoute getBSSID]];
     self.ssidDataLabel.text = [NSString stringWithFormat:@"Wifi SSIDData - %@", [FGRoute getSSIDDATA]];
+}
+
+#pragma mark - CLLocationManagerDelegate -
+
+- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
+    if((status == kCLAuthorizationStatusAuthorizedAlways) ||
+       (status == kCLAuthorizationStatusAuthorizedWhenInUse)) {
+        [self showSSIDInfo];
+    }
 }
 
 @end
