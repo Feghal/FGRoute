@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FGRoute'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'FGRoute helps developers to get rid of dealing with WiFi interfaces.'
   s.platform         = :ios, '8.0'
 

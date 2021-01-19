@@ -50,7 +50,9 @@
     NSLog(@"Wifi Name - %@", [FGRoute getSSID]);
     NSLog(@"Wifi BSSID - %@", [FGRoute getBSSID]);
     NSLog(@"Wifi SSIDData - %@", [FGRoute getSSIDDATA]);
-    
+    NSLog(@"Wifi Netmask - %@", [FGRoute getNetmask]);
+    NSLog(@"Wifi Netmask - %@", [FGRoute getDestination]);
+
     self.ssidLabel.text = [NSString stringWithFormat:@"Wifi Name - %@", [FGRoute getSSID]];
     self.bssidLabel.text = [NSString stringWithFormat:@"Wifi BSSID - %@", [FGRoute getBSSID]];
     self.ssidDataLabel.text = [NSString stringWithFormat:@"Wifi SSIDData - %@", [FGRoute getSSIDDATA]];

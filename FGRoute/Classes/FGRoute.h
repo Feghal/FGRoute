@@ -41,6 +41,15 @@
 + (NSString *)getIPAddress;
 
 /**
+ @return local ip address in string format
+ */
++ (NSString *)getDestination;
+
+/**
+ @return netmask address in string format
+ */
++ (NSString *)getNetmask;
+/**
 
  @return @b true if wifi is connected, @b false if not
  */
