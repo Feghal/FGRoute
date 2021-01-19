@@ -24,7 +24,7 @@ FGRoute is library to help developers get info from wifi interfaces, such as con
 
   s.homepage         = 'https://github.com/Feghal/FGRoute'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Arthur Sahakyan' => 'arturshakyan1996@gmail.com' }
+  s.author           = { 'Arthur Sahakyan' => 'artursahakyan1996@gmail.com' }
   s.source           = { :git => 'https://github.com/Feghal/FGRoute.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
