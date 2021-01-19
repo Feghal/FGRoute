@@ -67,6 +67,10 @@ FGRoute.getBSSID() // Connected wifi BSSID
 FGRoute.getSSIDDATA() // Connected wifi SSIDDATA
 
 FGRoute.getIPAddress() // Your local ip address in network
+
+FGRoute.getNetmask() // Connected wifi Netmask
+
+FGRoute.getDestination() // Connected wifi Destination ip address
 ```
 
 Full method documentation for ObjC
@@ -84,6 +88,10 @@ Full method documentation for ObjC
 [FGRoute getSSIDDATA]; // Connected wifi SSIDDATA
 
 [FGRoute getIPAddress]; // Your local ip address in network
+
+[FGRoute getNetmask]; // Connected wifi Netmask
+
+[FGRoute getDestination]; // Connected wifi Destination ip address
 ```
 
 ## iOS 13 and later
