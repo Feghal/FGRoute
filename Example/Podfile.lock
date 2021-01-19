@@ -1,16 +1,16 @@
 PODS:
-  - FGRoute (1.0.5)
+  - FGRoute (1.0.7)
 
 DEPENDENCIES:
-  - FGRoute (from `../`)
+  - FGRoute
 
-EXTERNAL SOURCES:
-  FGRoute:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - FGRoute
 
 SPEC CHECKSUMS:
-  FGRoute: 012077ebabb2841d2af3baf63b30e72841f35ba1
+  FGRoute: e46b1ef1a98f74659fb4e25c8473550175799da4
 
-PODFILE CHECKSUM: 900b624576870a0410550fd99ea6697d7c5ead3e
+PODFILE CHECKSUM: 6056034aca9678bf8eb596ac4383f341bff11cc1
 
 COCOAPODS: 1.9.0
