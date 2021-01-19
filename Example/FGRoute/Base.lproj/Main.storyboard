@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_0" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,31 +20,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQz-bF-Dx0">
-                                <rect key="frame" x="24" y="28" width="272" height="21"/>
+                                <rect key="frame" x="24" y="8" width="272" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUx-Wv-rdp">
-                                <rect key="frame" x="24" y="57" width="272" height="21"/>
+                                <rect key="frame" x="24" y="36.5" width="272" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AyT-wo-KrW">
-                                <rect key="frame" x="24" y="86" width="272" height="21"/>
+                                <rect key="frame" x="24" y="65" width="272" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlB-G8-MwI">
-                                <rect key="frame" x="24" y="115" width="272" height="21"/>
+                                <rect key="frame" x="24" y="93.5" width="272" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7F-CP-Wml">
-                                <rect key="frame" x="24" y="144" width="272" height="21"/>
+                                <rect key="frame" x="24" y="122" width="272" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcV-J5-ST4">
+                                <rect key="frame" x="24" y="150.5" width="272" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVU-Oj-q1S">
+                                <rect key="frame" x="24" y="179" width="272" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -55,16 +64,22 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="pcV-J5-ST4" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="2sI-y5-x71"/>
                             <constraint firstItem="eQz-bF-Dx0" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="4I0-bN-5d3"/>
                             <constraint firstItem="QlB-G8-MwI" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="5hO-Qp-Phq"/>
                             <constraint firstItem="f7F-CP-Wml" firstAttribute="top" secondItem="QlB-G8-MwI" secondAttribute="bottom" constant="8" id="5yg-mM-Kw5"/>
+                            <constraint firstItem="pcV-J5-ST4" firstAttribute="top" secondItem="f7F-CP-Wml" secondAttribute="bottom" constant="8" id="7EM-pg-vdR"/>
+                            <constraint firstItem="SVU-Oj-q1S" firstAttribute="top" secondItem="pcV-J5-ST4" secondAttribute="bottom" constant="8" id="7TU-1Q-hfK"/>
                             <constraint firstItem="AyT-wo-KrW" firstAttribute="top" secondItem="NUx-Wv-rdp" secondAttribute="bottom" constant="8" id="7Yw-Xj-BNI"/>
                             <constraint firstItem="eQz-bF-Dx0" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="8" id="DDT-uR-iEt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="QlB-G8-MwI" secondAttribute="trailing" constant="8" id="Gd3-X4-T98"/>
                             <constraint firstItem="AyT-wo-KrW" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="GgG-Oq-qXC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pcV-J5-ST4" secondAttribute="trailing" constant="8" id="JHS-fY-X7w"/>
                             <constraint firstItem="f7F-CP-Wml" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="QKT-ON-sIJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SVU-Oj-q1S" secondAttribute="trailing" constant="8" id="Z3i-dR-4sZ"/>
                             <constraint firstItem="NUx-Wv-rdp" firstAttribute="top" secondItem="eQz-bF-Dx0" secondAttribute="bottom" constant="8" id="aXT-bX-T2T"/>
                             <constraint firstItem="NUx-Wv-rdp" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="c5R-1w-N8V"/>
+                            <constraint firstItem="SVU-Oj-q1S" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="8" id="g6U-2Q-4WX"/>
                             <constraint firstItem="QlB-G8-MwI" firstAttribute="top" secondItem="AyT-wo-KrW" secondAttribute="bottom" constant="8" id="kU2-0R-x1F"/>
                             <constraint firstAttribute="trailingMargin" secondItem="f7F-CP-Wml" secondAttribute="trailing" constant="8" id="lQr-mx-wlB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="eQz-bF-Dx0" secondAttribute="trailing" constant="8" id="oqc-4O-7eO"/>
@@ -74,8 +89,10 @@
                     </view>
                     <connections>
                         <outlet property="bssidLabel" destination="QlB-G8-MwI" id="7ul-kj-KCB"/>
+                        <outlet property="destinationLabel" destination="SVU-Oj-q1S" id="Gjf-tb-GHb"/>
                         <outlet property="getwayLabel" destination="eQz-bF-Dx0" id="Jz1-AY-pt7"/>
                         <outlet property="ipLabel" destination="NUx-Wv-rdp" id="c0b-pB-baI"/>
+                        <outlet property="netmaskLabel" destination="pcV-J5-ST4" id="RAL-yW-IyQ"/>
                         <outlet property="ssidDataLabel" destination="f7F-CP-Wml" id="Dbl-4Z-aV4"/>
                         <outlet property="ssidLabel" destination="AyT-wo-KrW" id="euu-0O-fVp"/>
                     </connections>

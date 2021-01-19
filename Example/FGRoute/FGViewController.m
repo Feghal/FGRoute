@@ -16,6 +16,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *ssidLabel;
 @property (weak, nonatomic) IBOutlet UILabel *bssidLabel;
 @property (weak, nonatomic) IBOutlet UILabel *ssidDataLabel;
+@property (weak, nonatomic) IBOutlet UILabel *netmaskLabel;
+@property (weak, nonatomic) IBOutlet UILabel *destinationLabel;
 
 @property (strong, nonatomic) CLLocationManager *manager;
 @end
@@ -51,11 +53,13 @@
     NSLog(@"Wifi BSSID - %@", [FGRoute getBSSID]);
     NSLog(@"Wifi SSIDData - %@", [FGRoute getSSIDDATA]);
     NSLog(@"Wifi Netmask - %@", [FGRoute getNetmask]);
-    NSLog(@"Wifi Netmask - %@", [FGRoute getDestination]);
+    NSLog(@"Wifi Destination address - %@", [FGRoute getDestination]);
 
     self.ssidLabel.text = [NSString stringWithFormat:@"Wifi Name - %@", [FGRoute getSSID]];
     self.bssidLabel.text = [NSString stringWithFormat:@"Wifi BSSID - %@", [FGRoute getBSSID]];
     self.ssidDataLabel.text = [NSString stringWithFormat:@"Wifi SSIDData - %@", [FGRoute getSSIDDATA]];
+    self.netmaskLabel.text = [NSString stringWithFormat:@"Wifi Netmask - %@", [FGRoute getNetmask]];
+    self.destinationLabel.text = [NSString stringWithFormat:@"Wifi Destination address  - %@", [FGRoute getDestination]];
 }
 
 #pragma mark - CLLocationManagerDelegate -
