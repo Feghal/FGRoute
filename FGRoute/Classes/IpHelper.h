@@ -10,6 +10,7 @@
 #define IpHelper_h
 
 #include <stdio.h>
+#include <sys/_types/_in_addr_t.h>
 
 int getdefaultgateway(in_addr_t * addr);
 
